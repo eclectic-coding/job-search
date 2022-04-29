@@ -17,7 +17,10 @@ module.exports = {
       'warn',
       {
         singleQuote: true,
-        trailingComma: 'none'
+        trailingComma: 'none',
+        printWidth: 80,
+        endOfLine: 'auto',
+        bracketSpacing: true
       }
     ],
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
