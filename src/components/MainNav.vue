@@ -8,27 +8,15 @@
 
         <nav class="ml-12 h-full">
           <ul class="m-0 flex h-full list-none p-0">
-            <li class="h-full">
-              <a href="#" class="flex h-full items-center py-2.5">Teams</a>
-            </li>
-            <li class="ml-9 h-full">
-              <a href="#" class="flex h-full items-center py-2.5">Locations</a>
-            </li>
-            <li class="ml-9 h-full">
-              <a href="#" class="flex h-full items-center py-2.5">
-                Life at Eclectic Corp
+            <li
+              v-for="menu in menuItems"
+              class="ml-9 h-full first:ml-0"
+              :key="menu.id"
+              data-test="menu-list-item"
+            >
+              <a :href="menu.url" class="flex h-full items-center py-2.5">
+                {{ menu.name }}
               </a>
-            </li>
-            <li class="ml-9 h-full">
-              <a href="#" class="flex h-full items-center py-2.5">
-                How we hire
-              </a>
-            </li>
-            <li class="ml-9 h-full">
-              <a href="#" class="flex h-full items-center py-2.5">Students</a>
-            </li>
-            <li class="ml-9 h-full">
-              <a href="#" class="flex h-full items-center py-2.5">Jobs</a>
             </li>
           </ul>
         </nav>
@@ -42,7 +30,15 @@ export default {
   name: 'MainNav',
   data() {
     return {
-      company: 'Eclectic Careers'
+      company: 'Eclectic Careers',
+      menuItems: [
+        { id: 1, name: 'Teams', url: '#' },
+        { id: 2, name: 'Locations', url: '#' },
+        { id: 3, name: 'Life at Eclectic Corp', url: '#' },
+        { id: 4, name: 'How we hire', url: '#' },
+        { id: 5, name: 'Students', url: '#' },
+        { id: 6, name: 'Jobs', url: '#' }
+      ]
     };
   }
 };
