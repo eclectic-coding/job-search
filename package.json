@@ -19,10 +19,10 @@
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "@babel/eslint-parser": "^7.18.2",
-    "@vue/cli-plugin-babel": "~5.0.4",
+    "@vue/cli-plugin-babel": "~5.0.6",
     "@vue/cli-plugin-eslint": "~5.0.6",
-    "@vue/cli-plugin-unit-jest": "~5.0.4",
-    "@vue/cli-service": "~5.0.4",
+    "@vue/cli-plugin-unit-jest": "~5.0.6",
+    "@vue/cli-service": "~5.0.6",
     "@vue/test-utils": "^2.0.1",
     "@vue/vue3-jest": "^28.0.0",
     "babel-jest": "^28.1.1",
