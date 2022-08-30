@@ -2534,10 +2534,10 @@
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-"@vue/vue3-jest@^28.1.0":
-  version "28.1.0"
-  resolved "https://registry.yarnpkg.com/@vue/vue3-jest/-/vue3-jest-28.1.0.tgz#2f0d0c02d5862b02be0aa499e3191086e2e732fb"
-  integrity sha512-A4Ek39u0KtVlUBwzio6DZld8egggTr8JPrSUcHllX4X96LsQUJReyIgPf+sMVCfpNeZUBDqbZ4QHhudBHa9Xzw==
+"@vue/vue3-jest@^29.0.0":
+  version "29.0.0"
+  resolved "https://registry.yarnpkg.com/@vue/vue3-jest/-/vue3-jest-29.0.0.tgz#2ffa62db9fef3755045cd0302ef12c027c3b3a5e"
+  integrity sha512-RZOAYN3w+7p4BksNHdPL5suWICZcvcU/CUGedOIp6CBPsgbNveNVc1eYH+C1iRjhKzai1DtuAhgAZV/f+4Iv4g==
   dependencies:
     "@babel/plugin-transform-modules-commonjs" "^7.2.0"
     chalk "^2.1.0"
